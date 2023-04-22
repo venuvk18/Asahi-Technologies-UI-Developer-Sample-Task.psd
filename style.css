@@ -1,7 +1,11 @@
+
+    *{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .Imageone{
-    margin: 0px 150px;
-    padding: 30px;
-    width: 1125px;
+    /* margin: 0px 150px;
+    padding: 30px; */
+    width: 100%;
     height: 385px;
 }
 .para1{
@@ -185,3 +189,148 @@ margin-top: 40px;
         padding-left: 400px;
         
     }
+    .tools{
+        padding-left: 80px;
+        background-color: #FAFAFA;
+        padding-top: 20px;
+    }
+    .caption{
+        display: inline-flex;
+        padding-left: 250px;
+    }
+    .tools h3{
+        text-align: center;
+    }
+    .tools p{
+        margin-left: 230px;
+    }
+    .tools span{
+        font-weight: bold;
+    }
+    .caption figure {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 5px;
+        margin-inline-end: 5px;
+    }
+    .caption figcaption{
+        font-size: small;
+    }
+    .txtbx{
+        background-color: #ffc324;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 300px;
+        padding-right: 300px;
+        
+    }
+    .txtbx span{
+        color: #266c87;
+    }
+    .area{
+        border-style: solid;
+        box-sizing: content-box;
+        height: 200px;
+        border-color: #FAFAFA;
+        border-radius: 15px;
+    }
+    .txtbx p{
+        padding-left: 50px;
+    }
+    .block{
+        background-color: black;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .block p{
+        color: white;
+        text-align: center;
+    }
+    .pic{
+        background-color: black;
+    }
+    .blk{
+        color: white;
+        text-align: center;
+        background: rgb(0, 0, 0);/* Fallback color */
+        background: rgba(0, 0, 0, 0.5);/* Black background with opacity */
+        
+    }
+    .btn3{
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        border-style: ridge;
+        margin-left: 30px;
+        box-sizing: border-box;
+        
+    }
+    .btn3 h5{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+.pic{
+    position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+.pic .blk {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);/* Fallback color */
+        background: rgba(0, 0, 0, 0.5);/* Black background with opacity */
+        color: #ffffff;
+        width: 100%;
+        padding: 20px;
+}
+.form{
+    background-color: #02025A;
+     padding-top: 20px; 
+    padding-bottom: 150px;
+    padding-left: 300px;
+    padding-right: 300px;
+    height: 280px;
+    text-align: center;
+
+}
+.form h2{
+    color: white;
+    text-align: center;
+    padding-top: 0%;
+
+}
+.form .venu{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.form textarea {
+    width: 55%;
+    height: 90px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+ /*  resize: none */
+  }
+.form .last{
+    padding-right: 335px;
+
+  }
+  .form  .submit{
+    background-color: #ffc324;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    
+
+
+  }
+  @media screen and (max-width: 900px) and (min-width: 600px){
+
+  }
+
